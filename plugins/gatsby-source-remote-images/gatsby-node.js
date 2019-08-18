@@ -3,6 +3,8 @@ const { createRemoteFileNode } = require(`gatsby-source-filesystem`)
 
 const NUM_IMAGES = parseInt(process.env.NUM_IMAGES || 100, 10)
 
+console.log(NUM_IMAGES)
+
 const urls = JSON.parse(
   fs.readFileSync(`${__dirname}/urls.json`, `utf-8`)
 ).slice(0, NUM_IMAGES)

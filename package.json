@@ -2,7 +2,7 @@
   "name": "gatsby-benchmark-image-processing",
   "private": true,
   "description": "A benchmark site to test how fast Gatsby can process images",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "async-sema": "^3.0.0",
